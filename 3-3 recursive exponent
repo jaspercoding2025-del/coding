@@ -1,0 +1,9 @@
+def power_simple(x,y):
+  print(x)
+  print(y)
+  if y==0:
+    return 1
+  if y==1:
+    return x
+  return power_simple (x,y-1)*x
+print(power_simple(2,3))
